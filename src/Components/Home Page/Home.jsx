@@ -5,6 +5,7 @@ import HeaderBottom from './HeaderBottom'
 import OfferSection from './OfferSection'
 import WhyChoose from './WhyChoose'
 import ReservationTable from './ReservationTable'
+import DeliciousMenu from './DeliciousMenu'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <OfferSection/>
         <WhyChoose/>
         <ReservationTable/>
+        <DeliciousMenu/>
     </div>
   )
 }
